@@ -15,13 +15,13 @@ p {
 }
 
 body {
-	background: #000000 url('background.jpg') no-repeat bottom left;
-	margin: 0;
-    padding: 0;
-    background-size: 100% 100%;
-    width: 100%;
-    height: auto !important;
-    min-height:85%;    
+	background: #000000 url('background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
 
 .hello {
