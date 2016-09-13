@@ -15,7 +15,7 @@ p {
 }
 
 body {
-	background: #000000 url('background.jpg') no-repeat center center;
+	background: #000000 url('background.jpg') no-repeat bottom left fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
