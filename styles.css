@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Orange Juice";
+    src: url('font1.ttf') format("truetype");
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p {
+	color: #ffffff;
+	font-family: "Courier New", Courier, monospace;
+}
+
+body {
+	background: #000000 url('background.jpg') no-repeat bottom left;
+	margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto !important;
+    min-height:100%;    
+}
+
+.hello {
+	font-family: "Orange Juice", "Courier New", Courier, monospace;
+	font-size: 400%;
+	margin-left: 55px;
+	margin-top: 5%;
+	margin-bottom: 0px;
+}
+
+.name{
+	font-family: "Orange Juice", "Courier New", Courier, monospace;
+	font-size: 150%; 
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+.description {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 100%;
+	margin-left: 80px;
+}
+
+.tags {
+	color: #333333;
+	font-family: "Comic Sans Ms", Arial, monospace;
+	font-size: 75%;
+}
