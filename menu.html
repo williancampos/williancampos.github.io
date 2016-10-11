@@ -1,0 +1,95 @@
+<!--
+	Name:               Willian Campos
+	Student number:     300879280
+	File description:   Pizza menu
+	File version:       1.0.0 
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pizzaki - The best pizza you have EVER tasted!</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Pizzaki website">
+		<meta name="keywords" content="pizza, dinner, lunch, topping, dough, size">
+		<meta name="author" content="Willian Campos">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+
+	<body class="container">
+		<header class="company-header row" onclick="goToMain();">
+				<div>
+					<picture class="common-image">
+						<source srcset="images/pizza-icon-xs.png" media="(max-width: 767px)">
+						<source srcset="images/pizza-icon-text.png">
+						<img class="common-image" src="images/pizza-icon-text.png" alt="Pizzaki">
+					</picture>
+				</div>
+				<div class="col-xs-12 slogan center"><h3>The best pizza you have EVER tasted!</h3></div>		
+		</header>
+		<section class="row main-container">
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ">
+				<div id="pizza0" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza1.jpg"/></div>		
+					<div class="pizza-title-wrapper"><h4 class="pizza-title">Pepperoni</h4></div>
+					<div>The classic pepperoni pizza.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza1" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza2.jpg"/></div>
+					<h4 class="pizza-title">Veggie</h4>
+					<div>A perfect mix of vegetables.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza2" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza3.jpg"/></div>
+					<h4 class="pizza-title">Canadian</h4>
+					<div>The best pizza for most Canadians.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza3" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza4.jpg"/></div>
+					<h4 class="pizza-title">Mexican</h4>
+					<div>Experience the spicy Mexican flavour.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza4" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza5.jpg"/></div>
+					<h4 class="pizza-title">Hawaiian</h4>
+					<div>Indescribable mix of ham and with pineapple.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza5" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza6.jpg"/></div>
+					<h4 class="pizza-title">Chicken Bacon</h4>
+					<div>Bacon and chicken put together in a delicious way.</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza6" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza7.jpg"/></div>
+					<h4 class="pizza-title">Bacon Cheddar</h4>
+					<div>Bacon strips, lots of cheddar and delicious beef. </div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+				<div id="pizza7" class="col-border clickable" onclick="selectPizza(id)">
+					<div class="image-wrapper"><img class="img-circle common-image" src="images/pizza8.jpg"/></div>
+					<h4 class="pizza-title">Deluxe</h4>
+					<div>Slices of pepperoni, high-quality sausage, peppers, mushrooms and onions. </div>
+				</div>
+			</div>    
+		</section>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<!--
+    Name:               Willian Campos
+    Student number:     300879280
+    File description:   Details of pizza
+    File version:       1.0.0 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzaki - The best pizza you have EVER tasted!</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Pizzaki website">
+		<meta name="keywords" content="pizza, dinner, lunch, topping, dough, size">
+		<meta name="author" content="Willian Campos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </head>
+
+    <body class="container" onload="onLoadDetails();">
+        <header class="company-header row" onclick="goToMain();">
+                <div>
+                    <picture class="common-image">
+                        <source srcset="images/pizza-icon-xs.png" media="(max-width: 767px)">
+                        <source srcset="images/pizza-icon-text.png">
+                        <img class="common-image" src="images/pizza-icon-text.png" alt="Pizzaki">
+                    </picture>
+                </div>
+                <div class="col-xs-12 slogan center"><h3>The best pizza you have EVER tasted!</h3></div>		
+        </header>
+        <section class="row main-container">
+            <div class="col-xs-12">
+                <h2>Dough</h2>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="dough0" type="radio" name="dough" checked/><label class="detail-form-label">Thin</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="dough1" type="radio" name="dough"/><label class="detail-form-label">Thick</label></div>
+                <div class="col-xs-12"><input id="wholeWheat" type="checkbox" name="whole"/><label class="detail-form-label">Whole wheat</label></div>
+            </div>
+            <div class="col-xs-12">
+                <h2>Toppings <span id="toppingRequired" class="glyphicon glyphicon-exclamation-sign show-required"></span></h2>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping0" type="checkbox" name="topping"/><label class="detail-form-label">Pepperoni</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping1" type="checkbox" name="topping"/><label class="detail-form-label">Sausage</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping2" type="checkbox" name="topping"/><label class="detail-form-label">Ham</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping3" type="checkbox" name="topping"/><label class="detail-form-label">Salami</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping4" type="checkbox" name="topping"/><label class="detail-form-label">Beef</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping5" type="checkbox" name="topping"/><label class="detail-form-label">Bacon</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping6" type="checkbox" name="topping"/><label class="detail-form-label">Chicken</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping7" type="checkbox" name="topping"/><label class="detail-form-label">Cheddar</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping8" type="checkbox" name="topping"/><label class="detail-form-label">Feta</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping9" type="checkbox" name="topping"/><label class="detail-form-label">Provolone</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping10" type="checkbox" name="topping"/><label class="detail-form-label">Green Olives</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping11" type="checkbox" name="topping"/><label class="detail-form-label">Black Olives</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping12" type="checkbox" name="topping"/><label class="detail-form-label">Peppers</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping13" type="checkbox" name="topping"/><label class="detail-form-label">Mushrooms</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping14" type="checkbox" name="topping"/><label class="detail-form-label">Onion</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping15" type="checkbox" name="topping"/><label class="detail-form-label">Pineapple</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="topping16" type="checkbox" name="topping"/><label class="detail-form-label">Tomatoes</label></div>
+            </div>
+            <div class="col-xs-12">
+                <h2>Size</h2>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="size0" type="radio" name="size"/><label class="detail-form-label">Small</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="size1" type="radio" name="size"/><label class="detail-form-label">Medium</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="size2" type="radio" name="size" checked/><label class="detail-form-label">Large</label></div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3"><input id="size3" type="radio" name="size"/><label class="detail-form-label">Extra large</label></div>
+            </div>
+            <div class="col-xs-12">
+                <button class="btn btn-lg btn-primary" onclick="cancelDetail();">Cancel</button>
+                <button class="btn btn-lg btn-success" onclick="confirmDetail();">Confirm</button> 
+            </div>
+        </section>
+    </body>
+</html>

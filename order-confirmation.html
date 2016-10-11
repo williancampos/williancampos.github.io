@@ -1,0 +1,71 @@
+<!--
+    Name:               Willian Campos
+    Student number:     300879280
+    File description:   Order confirmation
+    File version:       1.0.0 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzaki - The best pizza you have EVER tasted!</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Pizzaki website">
+		<meta name="keywords" content="pizza, dinner, lunch, topping, dough, size">
+		<meta name="author" content="Willian Campos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </head>
+
+    <body class="container" onLoad="onLoadConfirmation();">
+        <header class="company-header row" onclick="goToMain();">
+                <div>
+                    <picture class="common-image">
+                        <source srcset="images/pizza-icon-xs.png" media="(max-width: 767px)">
+                        <source srcset="images/pizza-icon-text.png">
+                        <img class="common-image" src="images/pizza-icon-text.png" alt="Pizzaki">
+                    </picture>
+                </div>
+                <div class="col-xs-12 slogan center"><h3>The best pizza you have EVER tasted!</h3></div>		
+        </header>
+        <section  class="row main-container">
+            <div class="col-xs-12">
+                <h2>Order Confirmation</h2>
+                <span id="customerName"></span><span>, your order has been confirmed!</span>
+                <p></p>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>Number</td>
+                        <td><span id="orderCode"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Transaction status</td>
+                        <td><span id="orderStatus"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td><span id="orderSubtotal"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Taxes</td>
+                        <td><span id="orderTaxes"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td><span id="orderTotal"></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xs-12">
+                <button class="btn btn-lg btn-success" onclick="startNewOrder();">Start new order</button>
+            </div>
+        </section>
+    </body>
+</html>

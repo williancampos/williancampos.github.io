@@ -1,0 +1,132 @@
+<!--
+    Name:               Willian Campos
+    Student number:     300879280
+    File description:   Order summary
+    File version:       1.0.0 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzaki - The best pizza you have EVER tasted!</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Pizzaki website">
+		<meta name="keywords" content="pizza, dinner, lunch, topping, dough, size">
+		<meta name="author" content="Willian Campos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </head>
+
+    <body class="container" onload="onLoadSummary();">
+        <header class="company-header row" onclick="goToMain();">
+                <div>
+                    <picture class="common-image">
+                        <source srcset="images/pizza-icon-xs.png" media="(max-width: 767px)">
+                        <source srcset="images/pizza-icon-text.png">
+                        <img class="common-image" src="images/pizza-icon-text.png" alt="Pizzaki">
+                    </picture>
+                </div>
+                <div class="col-xs-12 slogan center"><h3>The best pizza you have EVER tasted!</h3></div>		
+        </header>
+        <section  class="row main-container">
+            <div class="col-xs-12">
+                <h2>Order summary</h2>
+
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td><b>Base pizza</b></td>
+                        <td><span id="basePizza"></span></td>
+                    </tr>
+                    <tr>
+                        <td><b>Dough</b></td>
+                        <td><span id="dough"></span></td>
+                    </tr>
+                    <tr>
+                        <td><b>Toppings</b></td>
+                        <td><span id="toppings"></span></td>
+                    </tr>
+                    <tr>
+                        <td><b>Size</b></td>
+                        <td><span id="size"></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price</th>
+                        </tr>   
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span id="tPizzaSize"></span></td>
+                            <td><span id="tPizzaSizePrice"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span id="tRegularToppings"></span></td>
+                            <td><span id="tRegularToppingsPrice"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span id="tSpecialToppings"></span></td>
+                            <td><span id="tSpecialToppingsPrice"></span></td>
+                        </tr>
+                        <tr>
+                            <td><b>Sub total</b></td>
+                            <td><b><span id="tSubTotal"></span></b></td>
+                        </tr>
+                        <tr>
+                            <td>Taxes</td>
+                            <td><span id="tTaxes"></span></td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b><span id="tTotal"></span></b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="col-xs-12"><h4>May we have your:</h4></div>
+
+            <form class="form-horizontal col-xs-12">
+                <div class="form-group">
+                    <label class="control-label col-xs-5 col-md-2" for="name">Name</label>
+                    <div class="col-xs-6">
+                        <input class="form-control" id="name" type="text" required="required" placeholder="Enter name" /></div>
+                        <span id="nameRequired" class="glyphicon glyphicon-exclamation-sign show-required"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-5 col-md-2" for="address">Delivery address</label>
+                    <div class="col-xs-6">
+                        <input class="form-control" id="address" type="text" placeholder="Enter address"/></div>
+                        <span id="addressRequired" class="glyphicon glyphicon-exclamation-sign show-required"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-5 col-md-2" for="phone">Telephone number</label>
+                    <div class="col-xs-6">
+                        <input class="form-control" id="phone" type="text" placeholder="Enter phone" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/></div>
+                        <span id="phoneRequired" class="glyphicon glyphicon-exclamation-sign show-required"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-5 col-md-2" for="card">Credit card</label>
+                    <div class="col-xs-6">
+                        <input class="form-control" id="card" type="text" placeholder="Enter number" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/></div>
+                        <span id="cardRequired" class="glyphicon glyphicon-exclamation-sign show-required"></span>
+                </div>  
+            </form>
+            <div class="col-xs-12">
+                <button class="btn btn-lg btn-primary" onclick="cancelOrderSummary();">Cancel</button>
+                <button class="btn btn-lg btn-success" onclick="confirmOrderSummary();">Confirm</button>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+/*
+	Name:               Willian Campos
+    Student number:     300879280
+    File description:   File containing custom styles
+    File version:       1.0.0 
+*/
+
+body {
+	background-color: #91e5f6;
+	color: black;
+}
+
+
+.main-container 
+{
+	background-color: #133c55;
+	color: #91e5f6;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.company-header
+{
+	color: #133c55;
+	background-image: url(../images/background.jpg); 
+	cursor: pointer;
+}
+
+.slogan
+{
+	text-align: center;	
+}
+
+.col-border
+{
+	border-left: 1px solid #84D2F6;
+	border-bottom: 1px solid #84D2F6;
+	border-top: 1px solid #84D2F6;
+	border-right: 1px solid #84D2F6;
+	padding-left: 1%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-right: 1%;
+}
+
+.common-image
+{
+	margin: auto;
+	display: block;
+	max-width: 100%;
+}
+
+.image-wrapper
+{
+	background-color:#84d2f6;
+}
+
+.pizza-title 
+{
+	text-align: center;
+}
+
+.detail-form-label
+{
+	padding-left: 0.5em;
+	font-weight: 100;
+}
+
+.clickable
+{
+	 cursor: pointer;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited
+{
+	color: #91e5f6;
+    background-color: #386fa4;
+    border-color: #84d2f6;
+}
+
+.btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:visited 
+{
+	color: #91e5f6;
+    background-color: #386fa4;
+    border-color: #84d2f6;
+}
+
+.btn-success.active {
+	background-color: red;
+	box-shadow: none;
+}
+
+.show-required
+{
+	display: none;
+}
