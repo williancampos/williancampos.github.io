@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
 <channel>
-<title>Snowball Church Canada RSS Feed</title>
-<description>Snowball Church Canada RSS Feed.</description>
+<title>Snowball Church Canada</title>
+<description>Here you will find blessing messages from Snowball Church Canada</description>
+<itunes:author>Snowball Church Canada</itunes:author>
 <link>http://www.snowballchurch.ca</link>
+<itunes:image href="http://resizer.bk-partnersus.com/bk-paus75861_logo-ingles-branco-2.png?w=960" />
+<pubDate> Sun, 29 Jan 2017 22:00:00 EST </pubDate>
+<language>en-us</language>
+<copyright> Copyright Snowball Church Canada </copyright>
+
+
+<item>
+<title>Strike it up - The revelation of the sons of God</title>
+<description>This is one of the messages of Match Conference, that took place in Snowball Church Toronto - 2016 during its 3rd anniversary celebration.</description>
+<itunes:author>Pr Viviane Nunes</itunes:author>
+<pubDate> Sun, 29 Jan 2017 22:00:00 EST </pubDate>
+<enclosure url="https://archive.org/download/StrikeItUp_201701/Strike%20it%20up%20-%20The%20revelation%20of%20the%20sons%20of%20God.mp3" length="72056628" type="audio/mpeg" /> 
+</item>
+
 <item>
 <title>Snowball Church Canada - Website</title>
 <description>The official website of Snowball Church Canada.</description>
