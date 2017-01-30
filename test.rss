@@ -9,7 +9,10 @@
 <pubDate> Sun, 29 Jan 2017 22:00:00 EST </pubDate>
 <language>en-us</language>
 <copyright> Copyright Snowball Church Canada </copyright>
-
+<itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+</itunes:category>
+<itunes:explicit>no</itunes:explicit>
 
 <item>
 <title>Strike it up - The revelation of the sons of God</title>
@@ -17,6 +20,7 @@
 <itunes:author>Pr Viviane Nunes</itunes:author>
 <pubDate> Sun, 29 Jan 2017 22:00:00 EST </pubDate>
 <enclosure url="https://archive.org/download/StrikeItUp_201701/Strike%20it%20up%20-%20The%20revelation%20of%20the%20sons%20of%20God.mp3" length="72056628" type="audio/mpeg" /> 
+<itunes:duration>57:44</itunes:duration>
 </item>
 
 <item>
