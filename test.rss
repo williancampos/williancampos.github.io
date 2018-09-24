@@ -15,24 +15,6 @@
 <itunes:explicit>no</itunes:explicit
 
 <item>
-<title>(Portuguese) Autoimagem</title>
-<description>Message preached on August 12th, 2018 by Ap. Jose Levi Domingos at Snowball Church Toronto.</description>
-<itunes:author>Ap. Jose Levi Domingos</itunes:author>
-<pubDate> Wed, 05 Sep 2018 12:00:00 EST </pubDate>
-<enclosure url="https://archive.org/download/Autoimagem/Autoimagem.mp3" length="120561554" type="audio/mpeg" /> 
-<itunes:duration>01:20:27</itunes:duration>
-</item>
-      
-<item>
-<title>(English/Portuguese) Overcoming Strongholds (Destruindo Fortalezas)</title>
-<description>Message preached on August 12th, 2018 by Ap. Jose Levi Domingos at Snowball Church Toronto.</description>
-<itunes:author>Ap. Jose Levi Domingos</itunes:author>
-<pubDate> Wed, 05 Sep 2018 12:00:00 EST </pubDate>
-<enclosure url="https://archive.org/download/OvercomingStrongholds/Overcoming%20Strongholds.mp3" length="89748063" type="audio/mpeg" /> 
-<itunes:duration>56:26</itunes:duration>
-</item>
-
-<item>
 <title>(Portuguese) Esteja Pronto Para Um Novo Tempo</title>
 <description>Message preached on February 25th, 2018 by Pr. Fernando Nunes at Snowball Church Toronto.</description>
 <itunes:author>Pr Fernando Nunes</itunes:author>
@@ -48,6 +30,24 @@
 <pubDate> Sun, 25 Feb 2018 12:00:00 EST </pubDate>
 <enclosure url="https://archive.org/download/GetReadyForANewTime/Get%20Ready%20For%20A%20New%20Time.mp3" length="47637398" type="audio/mpeg" /> 
 <itunes:duration>57:30</itunes:duration>
+</item>
+
+<item>
+<title>(Portuguese) Autoimagem</title>
+<description>Message preached on August 12th, 2018 by Ap. Jose Levi Domingos at Snowball Church Toronto.</description>
+<itunes:author>Ap. Jose Levi Domingos</itunes:author>
+<pubDate> Wed, 05 Sep 2018 12:00:00 EST </pubDate>
+<enclosure url="https://archive.org/download/Autoimagem/Autoimagem.mp3" length="120561554" type="audio/mpeg" /> 
+<itunes:duration>01:20:27</itunes:duration>
+</item>
+      
+<item>
+<title>(English/Portuguese) Overcoming Strongholds (Destruindo Fortalezas)</title>
+<description>Message preached on August 12th, 2018 by Ap. Jose Levi Domingos at Snowball Church Toronto.</description>
+<itunes:author>Ap. Jose Levi Domingos</itunes:author>
+<pubDate> Wed, 05 Sep 2018 12:00:00 EST </pubDate>
+<enclosure url="https://archive.org/download/OvercomingStrongholds/Overcoming%20Strongholds.mp3" length="89748063" type="audio/mpeg" /> 
+<itunes:duration>56:26</itunes:duration>
 </item>
 
 <item>
