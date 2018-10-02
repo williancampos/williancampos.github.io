@@ -16,13 +16,23 @@
 <itunes:explicit>no</itunes:explicit>
 
 <item>
+<title>(Portuguese) Busque</title>
+<description>Message preached on September 30th, 2018 by Pr. Viviane Nunes at Snowball Church Toronto.</description>
+<itunes:author>Pr Viviane Nunes</itunes:author>
+<pubDate> Sun, 30 Sep 2018 12:00:00 EST </pubDate>
+<enclosure url="https://archive.org/download/Busque/Busque.mp3" length="51526275" type="audio/mpeg" /> 
+<itunes:duration>58:59</itunes:duration>
+<guid>https://archive.org/download/Busque/Busque.mp3</guid>
+</item>
+
+<item>
 <title>(English) Seek</title>
 <description>Message preached on September 30th, 2018 by Pr. Viviane Nunes at Snowball Church Toronto.</description>
 <itunes:author>Pr Viviane Nunes</itunes:author>
 <pubDate> Sun, 30 Sep 2018 12:00:00 EST </pubDate>
-<enclosure url="https://archive.org/download/willian_Seek/Seek.mp3" length="39429395" type="audio/mpeg" /> 
+<enclosure url="https://archive.org/download/EnglishSeek/%28English%29%20Seek.mp3" length="39429395" type="audio/mpeg" /> 
 <itunes:duration>45:20</itunes:duration>
-<guid>https://archive.org/download/willian_Seek/Seek.mp3</guid>
+<guid>https://archive.org/download/EnglishSeek/%28English%29%20Seek.mp3</guid>
 </item>
 
 <item>
